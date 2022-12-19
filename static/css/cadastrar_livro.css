@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar img{
+    height: 10vh;
+   
+}
+.navbar {
+    border-bottom: 3px solid rgba(128, 128, 128, 0.249);
+}
+
+#btn-home {
+    width: 10%;
+    border-radius: 25px;
+}
+
+.container-principal{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-conteudo{
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.249);
+    height: 75vh;
+    width: 95%;
+    border-radius: 20px;
+}
+
+.capa-livro{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.capa-livro img{
+    height: 100%;
+    align-self: center;
+}
+
+.container-form{
+    padding: 2%;
+}
+
+.form-control{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    background-color: rgba(128, 128, 128, 0);
+
+}
+
+.bi-star-fill {
+    font-size: 5vh;
+}
+
+#checkboxes{
+    align-self: center;
+}
