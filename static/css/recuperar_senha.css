@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.form-control{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    background-color: rgba(128, 128, 128, 0);
+
+}
+
+
+#redefinir-form{
+
+    background-color: rgba(128, 128, 128, 0);
+    
+}
+
+.container-form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 2% 5%;
+    width: 50%;
+    height: 70vh;
+    background-color: rgba(128, 128, 128, 0.249)
+}
+
+#btn-redefinir{
+
+    width: 80%;
+    border-radius: 20px;
+    font-size: large;
+
+}
+
+.container-form img{
+    height: 13vh;
+    width: auto;
+}
