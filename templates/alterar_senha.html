@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <!-- Meus scripts -->
     <script src="../static/js/scripts.js" defer></script>
-    <link rel="stylesheet" href="../static/css/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="../static/css/alterar_senha.css">
+    <title>Alterar Senha</title>
 </head>
 
 <body class="container-fluid">
@@ -26,18 +26,21 @@
             <span class="mb-4"><i class="bi bi-book "></i></span>
             <form action="" id="login-form">
                 <div class="form-group">
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+                    <label for="senha"></label>
+                    <input type="password" id="senha" name="senha" placeholder="Senha" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="senha"></label>
-                    <input type="password" id="senha" name="senha" placeholder="Senha" class="form-control mb-5">
+                    <input type="password" id="nova-senha" name="nova-senha" placeholder="Nova senha" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-secondary mb-4" id="btn-login">LOGIN</button>
+                <div class="form-group">
+                    <label for="senha"></label>
+                    <input type="password" id="nova-senha-2" name="nova-senha-2" placeholder="Repita a nova senha" class="form-control mb-5">
+                </div>
+                <button type="submit" class="btn btn-secondary mb-4" id="btn-submit">ALTERAR SENHA</button>
             </form>
             <div class="row">
                 <a href="recuperar_senha.html" class="text-black mb-4">Esqueci minha senha</a>
-                <a href="cadastrar.html" class="text-decoration-none text-black">Não tem uma conta? <strong>Cadastre-se</strong></a>
             </div>
 
         </div>

@@ -30,7 +30,7 @@
             <div class="card-config-conta">
                 <h5>CONFIGURAÇÕES DE CONTA</h5>
                 <a href="#">Alterar Nome</a>
-                <a href="#">Alterar Senha</a>
+                <a href="alterar_senha.html">Alterar Senha</a>
                 <a href="#">Alterar email</a>
                 <a href="#">Deletar conta</a>
                 <a href="#">Transferir conta</a>
@@ -38,17 +38,17 @@
             </div>
         </div>
         <div class="container-conteudo col-9">
-            <div class="container-barra-pesquisa row">
-                <div class="pesquisa">
+            <div class="container-barra-pesquisa">
+                <div class="container-selects ">
                     <div class="selects-pesquisa"></div>
-                    <label for="categoria-emprestado"></label>
+                    <label for="emprestado"></label>
                     <select name="emprestado" id="emprestado">
                         <option value="" disabled selected>Emprestado</option>
                         <option value="sim">Sim</option>
                         <option value="nao">Não</option>
                     </select>
-                    <label for="categoria-genero"></label>
-                    <select name="categoria" id="genero">
+                    <label for="genero"></label>
+                    <select name="genero" id="genero">
                         <option value="" disabled selected>Gênero</option>
                         <option value="terror">Terror</option>
                         <option value="romance">Romance</option>
@@ -56,6 +56,17 @@
                         <option value="drama">Drama</option>
                         <option value="investigacao">Investigação</option>
                     </select>
+                    <label for="avaliacao"></label>
+                    <select name="avaliacao" id="avaliacao">
+                        <option value="" disabled selected>Avaliação</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="container-input">
                     <label for="pesquisa"></label>
                     <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar por um livro...">
                     <i class="bi bi-search"></i>
@@ -66,7 +77,7 @@
                     <div class="card-livro">
                         <img src="../static/img/capa1.jpg" alt="">
                         <div class="descricao-livro">
-                            <span>Nome: </span>
+                            <span class="nome-livro">Nome: <i class="bi bi-star-fill"></i></span>
                             <span>Autor: Paulo Rodrigo</span>
                             <span>Emprestado: nao</span>
                             <span>Coleção: de inverno</span>
