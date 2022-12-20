@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar img{
+    height: 10vh;
+}
+
+.container-img-lateral img{
+    height: 70vh;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.container-conteudo{
+    height: 88vh;
+    background-color: rgba(128, 128, 128, 0.249);
+}
+
+.container-form{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#btn-login {
+    width: 10%;
+    border-radius: 25px;
+}
+
+#form-editar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50vh;
+    text-align: center;
+}
+
+.container-img-lateral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    background-color: rgba(128, 128, 128, 0);
+
+}
+
+#btn-editar {
+    align-self: center;
+    width: 40%;
+    border-radius: 25px;
+}
+
