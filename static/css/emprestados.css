@@ -21,13 +21,13 @@ a {
     justify-content: center;
     flex-direction: column;
     width: 6.5vh;
-    max-height: 100vh;
+    height: 100vh;
     background-color: rgba(128, 128, 128, 0.249);
 }
 
 .sidebar span{
     word-wrap: break-word;
-    font-size: 50px;
+    font-size: 5vh;
 }
 
 .container-conteudo{
