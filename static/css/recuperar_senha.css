@@ -31,9 +31,10 @@
 .container-form{
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
     border-radius: 10px;
-    padding: 2% 5%;
+    padding: 5% 5%;
     width: 50%;
     height: 70vh;
     background-color: rgba(128, 128, 128, 0.249)
